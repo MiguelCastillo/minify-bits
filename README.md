@@ -38,7 +38,7 @@ bitRunner.register('default', function buildPipeline(task) {
 ##### Minify with configuration settings.
 All settings are passed directly to [uglify](https://github.com/mishoo/UglifyJS2#api-reference). Please refer to their site for details on the different options.
 
-The *only* option that specific to the minify-bits is `sourceMap`, which is a boolean to enable/disable generating source maps. I expect this list will grow.
+The *only* option that is specific to minify-bits is `sourceMap`, which is a boolean to enable/disable generating source maps. I expect this list will grow.
 
 ``` javascript
 var bitRunner = require('bit-runner');
