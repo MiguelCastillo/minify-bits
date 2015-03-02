@@ -1,0 +1,30 @@
+{
+  "name": "minify-bits",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "utils-merge": "~1.0.0",
+    "uglify-js": "~2.4.16"
+  },
+  "browser": {},
+  "directories": {
+    "test": "tests"
+  },
+  "description": "Minify transform for bit imports and bit runner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiguelCastillo/minify-bits.git"
+  },
+  "keywords": [
+    "minify-bits",
+    "bits"
+  ],
+  "author": "Miguel Castillo <manchagnu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiguelCastillo/minify-bits/issues"
+  },
+  "homepage": "https://github.com/MiguelCastillo/minify-bits"
+}
