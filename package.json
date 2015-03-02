@@ -12,7 +12,7 @@
   "directories": {
     "test": "tests"
   },
-  "description": "Minify transform for bit imports and bit runner",
+  "description": "Minify transform for bit runner",
   "repository": {
     "type": "git",
     "url": "https://github.com/MiguelCastillo/minify-bits.git"
