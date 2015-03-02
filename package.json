@@ -18,8 +18,10 @@
     "url": "https://github.com/MiguelCastillo/minify-bits.git"
   },
   "keywords": [
+    "bits",
     "minify-bits",
-    "bits"
+    "bit-runner",
+    "bit runner"
   ],
   "author": "Miguel Castillo <manchagnu@gmail.com>",
   "license": "MIT",
