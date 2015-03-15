@@ -15,7 +15,7 @@ var minify    = require('minify-bits');
 bitRunner.register('default', function buildPipeline(task) {
   task
     .load('index.js')
-    .then(minify)
+    .action(minify)
 });
 ```
 
@@ -34,6 +34,6 @@ var minify    = require('minify-bits');
 bitRunner.register('default', function buildPipeline(task) {
   task
     .load('index.js')
-    .then(minify.config({sourceMap: true}))
+    .action(minify.config({sourceMap: true}))
 });
 ```
